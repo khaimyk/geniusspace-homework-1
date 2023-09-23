@@ -1,0 +1,191 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2");
+}
+:root {
+  --color-brand: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-primary-light: #fff;
+  --color-primary-dark: #000;
+  --color-primary-politic: #747272;
+}
+/* Base */
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-brand-dark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+ul {
+  list-style-type: none;
+}
+address {
+  font-style: normal;
+}
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+/* link */
+.link {
+  color: var(--color-brand-dark);
+  text-decoration: none;
+  line-height: 1.17;
+}
+.link:hover {
+  color: var(--color-brand);
+  font-weight: 700;
+}
+/* hero-title */
+.hero-title-text {
+  line-height: 1.17;
+}
+.hero-title {
+  color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.8;
+  text-transform: capitalize;
+}
+.hero-text {
+  font-size: 12px;
+  color: #4a4a4a;
+}
+/* Button */
+.button-call {
+  border-radius: 32px;
+  background-color: var(--color-brand);
+  color: var(--color-primary-light);
+  cursor: pointer;
+  font-weight: 600;
+  border: 2px solid var(--color-brand);
+}
+.button-call:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
+.contact-section-form-button {
+  border-radius: 32px;
+  background-color: var(--color-brand);
+  color: var(--color-primary-light);
+  cursor: pointer;
+  font-weight: 600;
+  border: 2px solid var(--color-brand);
+}
+.contact-section-form-button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
+/* reincarnation-section */
+.reincarnation-section-title .accent {
+  color: var(--color-brand);
+  text-transform: capitalize;
+}
+.reincarnation-section-text {
+  font-size: 22px;
+  line-height: 1.7;
+  color: var(--color-brand-dark);
+}
+.reincarnation-section-text .accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+/* peoplechoose-section */
+.peoplechoose-section-title .accent {
+  color: var(--color-brand);
+}
+.peoplechoose-section-text {
+  color: var(--color-primary-dark);
+  line-height: 1.33;
+}
+/* procedures-section */
+.procedures-section-title .accent {
+  color: var(--color-brand);
+}
+.procedures-section-text {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  line-height: 1.18;
+}
+/* contact-section */
+.contact-section-form {
+  background-color: var(--color-brand-dark);
+}
+.contact-section-title .accent {
+  color: var(--color-brand);
+}
+.contact-section-form-title {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  line-height: 1.17;
+  font-weight: 600;
+}
+.contact-section-form-title .accent {
+  color: var(--color-brand);
+}
+::placeholder {
+  color: var(--color-primary-light);
+  font-size: 13px;
+}
+.contact-section-form-input:hover {
+  background-color: var(--color-primary-politic);
+  border: 2px solid var(--color-primary-politic);
+}
+.contact-section-form-politic {
+  color: var(--color-primary-politic);
+  font-size: 12px;
+  line-height: 1.17;
+}
+/* footer */
+.footer {
+  background-color: var(--color-brand-dark);
+}
+.link-footer {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.17;
+}
+.link-footer:hover {
+  color: var(--color-brand);
+  font-weight: 700;
+  line-height: 1.17;
+}
+.address-link {
+  font-size: 16px;
+  color: var(--color-primary-light);
+  line-height: 1.17;
+}
+.address-copyright {
+  color: var(--color-primary-politic);
+  font-size: 13px;
+  line-height: 1.17;
+}
